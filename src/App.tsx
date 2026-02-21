@@ -76,7 +76,7 @@ function generateCalendarDays(year: number, month: number) {
 
 const SHIFTS_DATA: Shift[] = [
   { id: '1', title: 'Senior Nurse Practitioner', type: 'my', timeSlot: 'day', time: '08:00 - 16:30', location: 'North Wing, Floor 3', date: 15 },
-  { id: '2', title: 'General Duty Staff', type: 'available', timeSlot: 'night', time: '19:00 - 03:00', location: 'Emergency ER', date: 15, source: 'manager' },
+  { id: '2', title: 'General Duty Staff', type: 'available', timeSlot: 'night', time: '23:00 - 07:00', location: 'Emergency ER', date: 15, source: 'manager' },
   { id: '3', title: 'Triage Specialist', type: 'my', timeSlot: 'day', time: '07:00 - 15:00', location: 'Main Entrance', date: 5 },
   { id: '4', title: 'Night Shift Supervisor', type: 'available', timeSlot: 'night', time: '22:00 - 06:00', location: 'ICU Ward', date: 5, source: 'friend' },
   { id: '5', title: 'Pediatric Nurse', type: 'my', timeSlot: 'day', time: '08:00 - 16:00', location: 'Children\'s Wing', date: 11 },
