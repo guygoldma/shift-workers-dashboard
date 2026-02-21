@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Public Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #2e1065;
+  --color-secondary: #c084fc;
+  --color-bg-light: #f7f6f8;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-bg-light text-slate-900;
+  }
+}
